@@ -370,5 +370,45 @@
       "restaurantId": "tasty-treats"
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "address": "rua stephen benet",
+      "number": "21",
+      "optionalAddress": "drogaria",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup-cake"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "address": "Av TESTE",
+      "number": "21",
+      "optionalAddress": "PERTO DA RUA",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "sunday"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "address": "rua teste",
+      "number": "21",
+      "optionalAddress": "teste",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "burger"
+        }
+      ],
+      "id": 3
+    }
+  ]
 }
